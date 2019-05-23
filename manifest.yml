@@ -1,5 +1,5 @@
 applications:
 - name: opencv 
-  host: opencv
   path: .
+  no-route: true
   command: python app.py
