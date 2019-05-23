@@ -1,5 +1,4 @@
 applications:
 - name: opencv 
   path: .
-  no-route: true
   command: python app.py
