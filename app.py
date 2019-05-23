@@ -17,6 +17,9 @@ while 1:
     writeStatus = cv2.imwrite("1.jpg", rotated)
     if writeStatus is True:
         print("image written")
+        hs = open("hst.txt","a")
+        hs.write(str(angle)+'\n')
+        hs.close() 
     else:
         print("problem") # or raise exception, handle problem, etc.
 
