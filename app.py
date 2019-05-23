@@ -2,8 +2,9 @@ import cv2
 import time
 import logging
 
-angle = 1
+
 def rotate():
+    angle = 1
     while 1:
         logger = logging.getLogger('route.logger')
         logger.info('Connection to database successful') 
